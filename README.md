@@ -14,5 +14,5 @@ For the full application, visit **[Secuditor Free](https://github.com/secuditor/
 - [sp_remote_access.py](sp_remote_access.py) – Detects remote access capabilities and exposure.
 - [sp_remote_server.py](sp_remote_server.py) – Inspects the system for server side remote services.
 - [sp_security_settings.py](sp_security_settings.py) – Reviews core Windows security posture settings.
-- [sp_shared_folders.py](sp_shared_folders.py) – Presents a mapping of shared folders (requires admin Permissions).
+- [sp_shared_folders.py](sp_shared_folders.py) – Presents a mapping of shared folders (requires admin permissions).
 - [sp_system_audit.py](sp_system_audit.py) – Presents a detailed report of the system's settings and inventory.
