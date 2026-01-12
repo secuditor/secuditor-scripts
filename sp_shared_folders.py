@@ -1,4 +1,6 @@
-# Requires admin permissions
+"""
+Mapping shared folders (requires admin permissions).
+"""
 
 import ctypes
 import win32security
@@ -6,7 +8,6 @@ import win32con as con
 import pythoncom
 import wmi
 import os
-
 
 # --- Get shared folders ---
 # --- Check if script runs as admin ---
@@ -113,7 +114,6 @@ def get_shared_folders():
                 output.append("–" * 40)
 
     return "\n".join(output)
-
 
 if __name__ == "__main__":
     print("Shared Folders Mapping")
