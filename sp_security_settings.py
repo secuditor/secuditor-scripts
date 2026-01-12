@@ -424,6 +424,7 @@ def format_security_settings(settings):
 
     return "\n".join(report)
 
+# --- Output ---
 if __name__ == "__main__":
     print("Security Settings Report")
     print("–" * len("Security Settings Report"))
