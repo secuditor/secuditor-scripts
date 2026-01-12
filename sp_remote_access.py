@@ -451,6 +451,7 @@ def format_remote_access_settings(settings):
 
     return "\n".join(report)
 
+# --- Output ---
 if __name__ == "__main__":
     print("Remote Access Report")
     print("–" * len("Remote Access Report"))
