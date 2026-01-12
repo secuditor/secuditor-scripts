@@ -34,6 +34,7 @@ def get_installed_apps():
     # Sort case-insensitive A-Z
     return sorted(apps, key=lambda x: x.lower())
 
+# --- Output ---
 if __name__ == "__main__":
     apps = get_installed_apps()
     print("Installed Applications Report")
