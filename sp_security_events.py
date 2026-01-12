@@ -145,6 +145,7 @@ def format_security_events(data):
 
     return "\n".join(lines)
 
+# --- Output ---
 if __name__ == "__main__":
     print("Security Events Report")
     print("–" * len("Security Events Report"))
