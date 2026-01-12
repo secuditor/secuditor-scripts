@@ -1,3 +1,7 @@
+"""
+Identifies domain affiliation and discovers related settings.
+"""
+
 import os
 import re
 import subprocess
