@@ -150,6 +150,7 @@ def format_password_policy(policy):
 
     return "\n".join(report)
 
+# --- Output ---
 if __name__ == "__main__":
     print("Password Policy Report")
     print("–" * len("Password Policy Report"))
