@@ -6,7 +6,7 @@ For the full application, visit **[Secuditor Free](https://github.com/secuditor/
 
 ---
 
-## Content Description
+## Scripts Description
 
 - [sp_credential_integrity.py](sp_credential_integrity.py) – Audits Windows credential protection mechanisms.
 - [sp_domain_settings.py](sp_domain_settings.py) – Identifies domain affiliation and discovers related settings.
