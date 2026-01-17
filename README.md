@@ -1,18 +1,10 @@
 # Secuditor Scripts
 
-A partial collection of open source Python [scripts](/scripts) (MIT license) developed for the **Secuditor project**. All scripts in this repository are **standalone**, and some may require the installation of third party packages.
+A partial collection of open source Python **[scripts](/scripts)** (MIT license) developed for the **Secuditor project**. All scripts in this repository are **standalone**, and some may require the installation of third party packages.
 
 For the full application, visit **[Secuditor Lite](https://github.com/secuditor/secuditor-lite)** which is distributed separately as closed source **freeware**.
 
 ---
-<br>
-
-## Legal Disclaimer
-
-These tools are intended solely for lawful and authorized use. You must obtain explicit permission from the network owner before scanning, auditing, or testing any systems. The author assumes no liability for misuse or for actions that violate applicable laws or organizational policies. Use responsibly and in compliance with your local governance.
-
----
-<br>
 
 ## Standalone Modules
 
@@ -32,11 +24,15 @@ These tools are intended solely for lawful and authorized use. You must obtain e
 - [sp_system_audit.py](scripts/sp_system_audit.py) – Presents a detailed report of the system's settings and inventory.
 
 ---
-<br>
+
+## Legal Disclaimer
+
+These tools are intended solely for lawful and authorized use. You must obtain explicit permission from the network owner before scanning, auditing, or testing any systems. The author assumes no liability for misuse or for actions that violate applicable laws or organizational policies. Use responsibly and in compliance with your local governance.
+
+---
 
 ### [Contributing Policy](CONTRIBUTING.md)
 
 ---
-<br>
 
 ### [Code of Conduct](CODE_OF_CONDUCT.md)
