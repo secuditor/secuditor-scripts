@@ -3,7 +3,7 @@
 """
 Audits Windows credential protection mechanisms.
 
-Requires: psutil
+Third-party: psutil
 """
 
 import os
