@@ -1,6 +1,6 @@
 # Secuditor Modules
 
-A partial collection of open source Python modules (MIT License) developed for the **Secuditor project**. All **[modules](/scripts)** in this repository are **standalone**, and some may require the installation of third party packages.
+A partial collection of open source Python modules developed for the **Secuditor project**. All **[modules](/scripts)** in this repository are **standalone** and **[MIT-licensed](LICENSE)**, some modules may require the installation of third party dependencies.
 
 For the full application, visit **[Secuditor Lite](https://github.com/secuditor/secuditor-lite)** which is distributed separately as closed source **freeware**.
 
