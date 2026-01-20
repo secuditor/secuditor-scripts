@@ -18,7 +18,7 @@ These tools are intended solely for lawful and authorized use. You must obtain e
 - [sp_domain_settings.py](scripts/sp_domain_settings.py) – Identifies domain affiliation and discovers related settings
 - [sp_gateway_detection.py](scripts/sp_gateway_detection.py) – Detects the local network's default gateway and public IP
 - [sp_hash_checksum.py](scripts/sp_hash_checksum.py) – Calculates cryptographic file hashes for integrity verification
-- [sp_https_scanner.py](scripts/sp_https_scanner.py) - Mini HTTPS security scanner (port 443 only)
+- [sp_https_scanner.py](scripts/sp_https_scanner.py) - Mini HTTPS security scanner for basic inspection (port 443 only)
 - [sp_installed_apps.py](scripts/sp_installed_apps.py) – Outputs a list of applications installed on the device
 - [sp_network_settings.py](scripts/sp_network_settings.py) – Presents the device's network adapters and configurations
 - [sp_password_policy.py](scripts/sp_password_policy.py) – Evaluates local and domain affiliated password policies
@@ -35,9 +35,9 @@ These tools are intended solely for lawful and authorized use. You must obtain e
 
 - Requires **Python 3.0** or higher  
 - Compatible with **Windows**  
-- Download the script and run it using Python
+- Download the script and run it using Python:
   ```bash
   python script_name.py
-- install third party pakage if nedded
+- install third party package if needed:
   ```bash
   pip install package_name
