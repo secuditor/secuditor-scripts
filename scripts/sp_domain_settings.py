@@ -1,4 +1,4 @@
-# Copyright (c) 2025 Menny Levinski
+# MIT License – Copyright (c) 2025 Menny Levinski
 
 """
 Identifies domain affiliation and discovers related settings.

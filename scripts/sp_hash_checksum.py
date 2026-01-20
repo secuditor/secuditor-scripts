@@ -1,4 +1,4 @@
-# Copyright (c) 2025 Menny Levinski
+# MIT License – Copyright (c) 2025 Menny Levinski
 
 """
 Calculates cryptographic file hashes for integrity verification.
@@ -54,4 +54,3 @@ if __name__ == "__main__":
     print(generate_hash_report(FILE_PATH))
 
     os.system("pause")
-    

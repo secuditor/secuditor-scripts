@@ -1,4 +1,4 @@
-# Copyright (c) 2025 Menny Levinski
+# MIT License – Copyright (c) 2025 Menny Levinski
 
 """
 Outputs recent Windows security event log entries (requires admin permissions).

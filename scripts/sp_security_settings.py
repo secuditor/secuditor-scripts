@@ -1,4 +1,4 @@
-# Copyright (c) 2025 Menny Levinski
+# MIT License – Copyright (c) 2025 Menny Levinski
 
 """
 Reviews core Windows security posture settings.
@@ -434,4 +434,3 @@ if __name__ == "__main__":
     print("")
 
     os.system("pause")
-    
