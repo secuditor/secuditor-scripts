@@ -26,7 +26,6 @@ def get_remote_server_settings():
         "WINS": "Unknown",
         "MSMQ":  "Unknown",
         "MSSQL":  "Unknown",
-        
         "TlntSvr": "Unknown",
     }
 

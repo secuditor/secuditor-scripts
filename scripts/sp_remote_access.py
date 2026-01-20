@@ -24,7 +24,6 @@ def get_remote_access_settings():
         "NetBIOS": "Unknown",
         "SMB1": "Unknown",
         "SMB2": "Unknown",
-        "VPN": "Unknown",
     }
 
     # --- Remote Desktop (RDP) ---
@@ -377,29 +376,6 @@ def get_remote_access_settings():
 
     except Exception:
         result["RPC Print Service"] = "Unknown"
-
-    # --- VPN Client check ---
-    try:
-        vpn_adapters = []
-        vpn_connected = False
-
-        for name, addrs in psutil.net_if_addrs().items():
-            # Detect common VPN interfaces
-            if any(keyword in name.lower() for keyword in ["vpn", "ppp", "tap", "tun"]):
-                vpn_adapters.append(name)
-                # Check if adapter has a valid IP
-                for addr in addrs:
-                    if addr.family == socket.AF_INET and not addr.address.startswith("169.254"):
-                        vpn_connected = True
-
-        if not vpn_adapters:
-            result["VPN"] = "Not Detected"
-        elif vpn_connected:
-            result["VPN"] = "Enabled (connected)"
-        else:
-            result["VPN"] = "Enabled (no connection)"
-    except Exception:
-        result["VPN"] = "Unknown"
 
     # --- Rsync Service ---
     try:
