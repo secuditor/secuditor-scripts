@@ -6,13 +6,13 @@ For the full application, visit **[Secuditor Lite](https://github.com/secuditor/
 
 ---
 
-## Legal
+## Legal Notice
 
 These tools are intended solely for lawful and authorized use. You must obtain explicit permission from the network owner before scanning, auditing, or testing any systems. The author assumes no liability for misuse or for actions that violate applicable laws or organizational policies. Use responsibly and in compliance with your local governance.
 
 ---
 
-## Index
+## Module Index
 
 - [sp_credential_integrity.py](scripts/sp_credential_integrity.py) – Audits Windows credential protection mechanisms
 - [sp_domain_settings.py](scripts/sp_domain_settings.py) – Identifies domain affiliation and discovers related settings
